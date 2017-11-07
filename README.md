@@ -71,4 +71,3 @@ GIF Walkthrough:
 https://gfycat.com/gifs/detail/FlawlessGratefulBobcat
 
 ## Notes
-Here is what was inside the Hidden form html file.
