@@ -20,7 +20,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: SQL injection
 When we insert an SQL statement say ' OR SLEEP(3)=0--' in the end of a salesperson URL the injection will be sucessful and 
-the website will sleep for 3 seconds.  This will not work for the red or green websites.
+the website will sleep for 3 seconds.  
 
 GIF Walkthrough:
 https://gfycat.com/gifs/detail/SnappyEnlightenedCaribou
@@ -39,7 +39,7 @@ Vulnerability #1: Username Enumeration
 When attempting to login with a correct username and failed password an error message "Log in was unsuccessful"
 will appear in bold.  However, in the green website when an incorrect username and password is inputted the error message
 appears not in bold.  This will give any unwanted person information that usernames that receive a "Log in was unsuccessful" message
-in bold are the database. 
+in bold are in the database. 
 
 GIF Walkthrough:
 https://gfycat.com/gifs/detail/JovialLinedBuffalo
@@ -54,8 +54,8 @@ https://gfycat.com/gifs/detail/AcclaimedIncredibleHorse
 ## Red
 
 Vulnerability #1: Insecure Direct Object Reference (IDOR)
-I noticed a clue when checking the salespeople in the admin section.  There were two salepeople that weren't suppose
-to been seen in the public site.  So, all three sites were tested when checking to see if these two people were
+I noticed a clue when checking the salespeople section in the admin section.  There were two salepeople that weren't suppose
+to be seen in the public site.  So, all three sites were tested when checking to see if these two people were
 able to be seen by changing the url ID in the salesperson page.  It turned out that in the red site we were able 
 to see the two people in the public site.
 
@@ -71,3 +71,4 @@ GIF Walkthrough:
 https://gfycat.com/gifs/detail/FlawlessGratefulBobcat
 
 ## Notes
+Describe any challenges encountered while doing the work.
